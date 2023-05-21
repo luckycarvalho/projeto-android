@@ -114,7 +114,7 @@ main a {
     text-decoration: none;
     color: var(--cor4);
     font-weight: bold;
-    padding-top: 20px;
+    background-color:var(--cor1);
 }
 
 main a:hover {
@@ -122,7 +122,7 @@ main a:hover {
 }
 
 main a::after {
-    content: '\1F517';
+    content: '\00A0\1F517';
 }
 
 main img {
